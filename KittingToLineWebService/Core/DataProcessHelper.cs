@@ -15,8 +15,6 @@ namespace KittingToLineWebService.Core
     public class DataProcessHelper
     {
         private DataProviderService dataProviderService;
-
-
         //日志对象
         private LogHandler logHandler;
         public DataProcessHelper(string conectionString)
