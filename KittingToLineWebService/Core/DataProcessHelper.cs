@@ -130,7 +130,7 @@ namespace KittingToLineWebService.Core
 
             #endregion
 
-            #region By Lot上下架数据同步到MES
+        #region By Lot上下架数据同步到MES
             public DataTable SXJ_Process(DataTable dt)
         {
             DataTable resultDt = new DataTable();
@@ -273,7 +273,6 @@ namespace KittingToLineWebService.Core
             }
         }
         #endregion
-        
 
         #region 调用库存(WMS从MES获取RACK架位信息)
         /// <summary>
@@ -301,7 +300,6 @@ namespace KittingToLineWebService.Core
             return result;
         }
         #endregion
-
 
         #region 同步MO线体信息
         /// <summary>
